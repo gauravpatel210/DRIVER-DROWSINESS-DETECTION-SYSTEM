@@ -78,7 +78,7 @@ To run this project, you need a webcam for capturing real-time images. Install P
 **Multimodal Detection**: Combine eye tracking with other indicators like head position or yawning detection.
 **Real-Time Optimization**: Optimize model performance for real-time applications on low-power devices.
 ## Contributors
-**.GAURAV**
+- GAURAV
 
 
 
