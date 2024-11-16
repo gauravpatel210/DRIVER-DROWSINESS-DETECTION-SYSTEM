@@ -21,9 +21,13 @@ Drowsiness detection is crucial in scenarios like driving, where a lack of alert
 The system follows these steps to detect drowsiness:
 
 1.Capture Image: Obtain real-time images from the webcam.
+
 2.Face Detection: Identify and create a Region of Interest (ROI) around the face.
+
 3.Eye Detection: Detect the eyes within the ROI and feed them into the classifier.
+
 4.Classification: The classifier categorizes the eyes as either open or closed.
+
 5.Drowsiness Score Calculation: Based on consecutive frames, a score is calculated to determine if the person is drowsy.
 
 ## Project Prerequisites
@@ -65,12 +69,16 @@ To run this project, you need a webcam for capturing real-time images. Install P
 **OpenCV**: Library for computer vision tasks like face and eye detection.
 **Keras & TensorFlow**: For building and training the CNN model.
 
+## Output
+![Screenshot 2024-11-16 164947](https://github.com/user-attachments/assets/77e83586-de51-4b5e-ba9b-e1b68f8ee357)
+
+
 ## Future Enhancements
 **Improved Alert System**: Implement an audio alarm or haptic feedback for real-world scenarios.
 **Multimodal Detection**: Combine eye tracking with other indicators like head position or yawning detection.
 **Real-Time Optimization**: Optimize model performance for real-time applications on low-power devices.
 ## Contributors
-**GAURAV**
+**.GAURAV**
 
 
 
