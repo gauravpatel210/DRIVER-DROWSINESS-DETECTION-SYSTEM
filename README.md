@@ -7,7 +7,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-Used)
-- [Project Structure](#project-structure)
 - [Future Enhancements](#future-enhancements)
 - [Contributors](#contributors)
 ## Project Overview
@@ -53,8 +52,25 @@ To run this project, you need a webcam for capturing real-time images. Install P
     ```
 3. **Run the System:**
     ```bash
-    python drowsiness_detection.py
+   driver_drowsiness_detection1.ipynb
     ```
+## Usage
+1. **Start Webcam**: The script automatically activates the webcam and begins capturing frames.
+2. **Drowsiness Detection**: The model processes the frames, detects the eyes, and classifies their state.
+3. **Alert System**: When the score exceeds a certain threshold indicating drowsiness, an alert can be triggered (e.g., sound alarm).
+
+## Technologies Used
+
+**Python**: Core programming language for developing the application.
+**OpenCV**: Library for computer vision tasks like face and eye detection.
+**Keras & TensorFlow**: For building and training the CNN model.
+
+## Future Enhancements
+**Improved Alert System**: Implement an audio alarm or haptic feedback for real-world scenarios.
+**Multimodal Detection**: Combine eye tracking with other indicators like head position or yawning detection.
+**Real-Time Optimization**: Optimize model performance for real-time applications on low-power devices.
+## Contributors
+**GAURAV**
 
 
 
